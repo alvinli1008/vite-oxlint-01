@@ -2,15 +2,15 @@ import { Button } from "@arco-design/mobile-react";
 
 import "./App.css";
 import setRootPixel from "@arco-design/mobile-react/tools/flexible";
+import Demo01 from "./pages/Demo01";
+import Demo02 from "./pages/Demo02";
 
 setRootPixel(16);
 function App() {
   return (
     <>
-      <div>
-        <Button needActive>Primary</Button>
-      </div>
-      <p className="text-base">Click on the Vite and React logos to learn more</p>
+      {/* <Demo01 /> */}
+      <Demo02 />
     </>
   );
 }

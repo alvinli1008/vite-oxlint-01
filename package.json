@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@arco-design/mobile-react": "^2.30.5",
+    "ahooks": "^3.7.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "zustand": "^4.4.7"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
